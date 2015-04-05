@@ -13,7 +13,7 @@ Note: the POC uses a library called ["android-gesture-detectors"](https://github
  - Allows rotating using 2 fingers
  - Output image uses the background you've given, so memory usage is minimal (uses only 2 bitmaps - the moving one and the background).
  
- **Sample demo animation**
+**Sample demo animation**
 
 Here's an animation to show what it's capable of:
 
