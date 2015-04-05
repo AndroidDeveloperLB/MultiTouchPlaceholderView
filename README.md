@@ -14,6 +14,7 @@ Note: the POC uses a library called ["android-gesture-detectors"](https://github
  - Output image uses the background you've given, so memory usage is minimal (uses only 2 bitmaps - the moving one and the background).
  
  **Sample demo animation**
+
 Here's an animation to show what it's capable of:
 
 ![enter image description here](https://raw.githubusercontent.com/AndroidDeveloperLB/MultiTouchPlaceholderView/master/demo.gif)
