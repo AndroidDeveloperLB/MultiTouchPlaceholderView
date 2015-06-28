@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android-gesture-detectors-3cdeab048d">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.AndroidDeveloperLB/android-gesture-detectors/3cdeab048d/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.AndroidDeveloperLB/android-gesture-detectors/3cdeab048d/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

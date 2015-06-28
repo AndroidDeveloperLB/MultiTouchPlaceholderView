@@ -1,1 +1,1 @@
-include ':app', ':gesture_detectors_library'
+include ':app'

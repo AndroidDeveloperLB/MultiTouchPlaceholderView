@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MultiTouchPlaceholderView.iml" filepath="$PROJECT_DIR$/MultiTouchPlaceholderView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gesture_detectors_library/gesture_detectors_library.iml" filepath="$PROJECT_DIR$/gesture_detectors_library/gesture_detectors_library.iml" />
     </modules>
   </component>
 </project>

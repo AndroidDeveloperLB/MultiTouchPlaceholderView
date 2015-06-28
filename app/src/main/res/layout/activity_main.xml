@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:orientation="vertical">
 
   <com.lb.multi_touch_placeholder_view.MultiTouchContainer
     android:id="@+id/container"
-    android:layout_width="match_parent"
-    android:layout_height="0px"
-    android:layout_weight="1">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
 
-    <com.lb.multi_touch_placeholder_view.MultiTouchView
-      android:background="#FFffffff"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center"
-      android:id="@+id/multiTouchView"/>
+    <com.lb.multi_touch_placeholder_view.SquareImageView
+      android:id="@android:id/background"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:src="@drawable/background"/>
   </com.lb.multi_touch_placeholder_view.MultiTouchContainer>
 
   <Button
     android:id="@+id/viewOutputBitmapButton"
     android:layout_width="wrap_content"
-    android:layout_gravity="center_horizontal"
     android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
     android:text="create bitmap and show"/>
 
 </LinearLayout>

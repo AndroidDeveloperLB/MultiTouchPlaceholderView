@@ -10,6 +10,12 @@ android {
         versionCode 1
         versionName "1.0"
     }
+    repositories {
+        maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+        maven {
+            url "https://jitpack.io"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -22,6 +28,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:22.0.0'
-    compile project(':gesture_detectors_library')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+
+    compile 'com.github.AndroidDeveloperLB:android-gesture-detectors:3cdeab048d'
 }
