@@ -11,7 +11,7 @@ Note: the POC uses a library called ["android-gesture-detectors"](https://github
  - Allows panning
  - Allows shoving (moving of 2 fingers up/down)
  - Allows rotating using 2 fingers
- - Output image uses the background you've given, so memory usage is minimal (uses only 2 bitmaps - the moving one and the background).
+ - You can add any view you wish, and allow the container to draw it.
  
 **Sample demo animation**
 
